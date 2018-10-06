@@ -19,7 +19,7 @@
     background: #ffffff;
   }
   li{
-    list-style: none;
+    list-style-type: none;
     font-size: 20px;
     float:right;
   }
