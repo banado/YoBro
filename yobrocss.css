@@ -1,0 +1,64 @@
+<style>
+  #a{
+    margin-left: 20px;
+
+  }
+  .google{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+    display:grid;
+    grid-template-columns: 120px 80px 500px 540px;
+    float:inherit;
+    border-bottom: 2px solid #000000;
+  }
+  button{
+    background: transparent; border:none;
+  }
+  #hamburger>span{
+    display:block; width:60%; height:8px; background: #000; margin:4px 0; border-radius: 10px; transition: all 0.5s;
+  }
+  #hamburger>.on:nth-child(1) {transform: translateY(15px) rotate(225deg); transition-delay: 0.2s; }
+  #hamburger>.on:nth-child(2) {opacity: 0; transform: translateX(50px);}
+  #hamburger>.on:nth-child(3) {transform: translateY(-11px) rotate(-225deg); transition-delay: 0.2s; }
+  .search{
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+    height:40px;
+    width: 400px;
+    border:1px solid #060606;
+    background: #ffffff;
+    margin-left: 10px
+  }
+  li{
+    list-style: none;
+    font-size: 20px;
+    float:right;
+  }
+  #b{
+    margin-top: 21px;
+    margin-bottom: 19px;
+  }
+  #c{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 10px;
+  }
+  input{
+    font-size:16px;
+    width:325px;
+    padding:10px;
+    border:0px;
+    outline:none;
+    float:left;
+  }
+  #검색{
+    width: 50px;
+    height:100%;
+    border:0px;
+    background: #070707;
+    outline: none;
+    float:right;
+    color:#ffff;
+
+  }
+</style>
