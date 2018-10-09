@@ -1,4 +1,11 @@
 <style>
+  @media(max-width: 1922px){
+    .google{
+      display:grid;
+      grid-template-columns: auto;
+    }
+  }
+
   #a{
     margin-left: 0px;
 
