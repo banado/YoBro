@@ -1,13 +1,13 @@
 <style>
   #a{
-    margin-left: 20px;
+    margin-left: 0px;
 
   }
   .google{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 50px;
     display:grid;
-    grid-template-columns: 80px 130px 500px 540px;
+    grid-template-columns: 80px 130px 500px 1;
     float:inherit;
     border-bottom: 2px solid #000000;
   }
