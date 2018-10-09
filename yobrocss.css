@@ -7,7 +7,7 @@
     font-family: 'Do Hyeon', sans-serif;
     font-size: 50px;
     display:grid;
-    grid-template-columns: 120px 80px 500px 540px;
+    grid-template-columns: 80px 130px 500px 540px;
     float:inherit;
     border-bottom: 2px solid #000000;
   }
