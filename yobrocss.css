@@ -1,0 +1,105 @@
+<style>
+  @media(max-width: 1922px){
+    .google{
+      display:grid;
+      grid-template-columns: auto;
+    }
+  }
+  @media(max-width: 840px){
+    .goolge{
+      font-size: 30px;
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .search{
+      display: none;
+    }
+  }
+
+  #a{
+    margin-left: 0px;
+
+  }
+  .google{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+    display:grid;
+    grid-template-columns: 80px 130px 1fr 1fr;
+    float:inherit;
+    border-bottom: 2px solid #000000;
+
+  }
+  button{
+    background: transparent; border:none;
+  }
+  #hamburger{
+    margin-bottom: 19px;
+  }
+  #hamburger>span{
+    display:block; width:80%; height:8px; background: #000; margin:4px 0; border-radius: 10px; transition: all 0.5s;
+  }
+  #hamburger>.on:nth-child(1) {transform: translateY(15px) rotate(225deg); transition-delay: 0.2s; }
+  #hamburger>.on:nth-child(2) {opacity: 0; transform: translateX(50px);}
+  #hamburger>.on:nth-child(3) {transform: translateY(-11px) rotate(-225deg); transition-delay: 0.2s; }
+  .search{
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+    height:40px;
+    width: 400px;
+    border:1px solid #060606;
+    background: #ffffff;
+    margin-left: 10px
+  }
+  .menu{
+    text-align: right;
+    float:right;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  #메뉴1{
+    margin-top: 21px;
+    margin-bottom: 19px;
+  }
+  #메뉴2{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 10px;
+  }
+  input{
+    font-size:16px;
+    width:325px;
+    padding:10px;
+    border:0px;
+    outline:none;
+    float:left;
+  }
+  #검색{
+    width: 50px;
+    height:100%;
+    border:0px;
+    background: #070707;
+    outline: none;
+    float:right;
+    color:#ffff;
+  }
+  footer{
+    position:absolute;
+    bottom:0;
+  }
+  #하단{
+    border-top: 1px solid black;
+  }
+  ul{
+    display: table;
+    list-style: none;
+    font-size: 30px;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: none;
+  }
+  li{
+    float: left;
+  }
+</style>
